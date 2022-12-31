@@ -1,0 +1,106 @@
+body {
+    
+    padding:10;
+    margin:10;
+    display:grid;
+    color: #e1e8ec;
+    font-size: 55px;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    user-select:auto;
+    background-image: url("https://img.freepik.com/free-vector/student-desk-top-view-teenager-home-workplace-table-with-studying-stationery-tablet-with-computer-game_107791-3451.jpg?w=2000&t=st=1670925661~exp=1670926261~hmac=ada3756f73656b686ac373207b1dad3c2a01a507d6530c1b1f61e300492cb01c");
+}
+
+.container {
+    margin-left:0em;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 13px 13px 60px #2d212b,
+        -13px -13px 60px #594456;
+}
+
+.content {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row button {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: rgb(230, 223, 223);
+    outline: rgb(213, 206, 206);
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #b0a3b0ad,
+        -5px -5px 8px rgba(255, 240, 240, 0);
+}
+
+.row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(66, 71, 63, 0.936),
+        inset -5px -5px 8px rgb(30, 30, 31);
+    background: rgb(126, 132, 111);
+}
+
+.display #screen {
+    margin-bottom: .5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background-image: url("https://th.bing.com/th/id/R.f8c00d42d9d8aae55cad9f6af90546ce?rik=0INXBjGPKlq1Uw&riu=http%3a%2f%2fwww.maruni.com%2fen%2fimg%2f_fabric%2flarge%2fsteelcolor_t_o_green.jpg&ehk=O%2foyXPSqsIFDxC6zxr1Lu7MXEOnneRPTODKePqDDNSM%3d&risl=&pid=ImgRaw&r=0");
+    border-radius: 6px;
+    box-shadow: inset 4px 4px 12px #43d6b6,
+        inset -4px -4px 12px #46ddc9;
+        left: 20%;
+        border: 5px solid #858e3b;
+       
+}
+@keyframes mymove {
+    20% {border-color: rgb(59, 226, 255);}
+  }
+
+#eval {
+    background: #000000;
+    color: #e0e0db;
+    box-shadow: inset 5px 5px 8px #000000,
+        inset -5px -5px 8px #fafafd;
+}
+
+#eval:hover {
+    box-shadow: inset 5px 5px 8px #578fbd,
+        inset -5px -5px 8px #02b4fb;
+}
+
+#ac {
+    background: #465046;
+    color: #fff;
+}
+
+#ac:hover {
+    box-shadow: inset 5px 5px 8px #77bb77,
+        inset -5px -5px 8px #5081b9;
+}
+
+#ce {
+    background: #1f1b1b;
+    color: rgb(223, 220, 220);
+}
+
+#ce:hover {
+    box-shadow: inset 5px 5px 8px #7eab6e,
+        inset -5px -5px 8px  #5081b9
+}
+
+#credits{
+    color:#fafafd;
+}
