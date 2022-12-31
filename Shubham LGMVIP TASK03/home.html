@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>"Fill This Form Before You Visit Our CompanY"</title>
+    <link rel="stylesheet" style="border-radius:4" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;color: rgb(21, 40, 70);">"This is small Registration form "</h1>
+   
+    <div id="container">
+        <table id="Form">
+            <thead> 
+                <tr>
+                    Update Your  Details Here!
+                    <td><input type="text" name="fname" id="fname" placeholder="Enter First Name"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" name="lname" id="lname" placeholder="Enter Last Name"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="email" id="email" placeholder="Enter Email"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="age" id="age" placeholder="Enter Age"></td>
+                </tr>
+                <tr>
+                    <td><input type="date" name="date" id="date" placeholder="Date of Birth"></td>
+                </tr>
+                <tr id="btna">
+                    <td colspa n="2"><input type="button" name="button" id="btn" value="Upload" onclick="AddRow()"></td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 style="color:rgb(253, 253, 253);">Received Details</h3>
+        <table id="show">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Date of Birth</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

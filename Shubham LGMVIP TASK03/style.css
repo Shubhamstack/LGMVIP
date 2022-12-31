@@ -1,0 +1,81 @@
+*{
+    font-weight: 800;
+    font-size: 18px;
+    
+}
+body {
+    width: 100%;
+    min-height: 10vh;
+    background: url("https://img.freepik.com/free-photo/free-time-students-bachelor-s-campus-life-rhythm-five-friendly-students-are-walking_8353-6408.jpg?w=1480&t=st=1670941599~exp=1670942199~hmac=be1a89be92b95bab0c0abb52f765613c11f9b9906e93ca123e48651233cc2e3b");
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 500px;
+    color: #0d0d0e;
+    text-transform: uppercase;
+    margin-top: 70px;
+    background-color:#a1a1e7;
+    ;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    width: 50%;
+    padding: 2rem 2rem;
+    margin-top: 1em;
+    column-gap: 40px;
+    box-shadow: inset 5px 5px 8px #906b5fd7,
+        inset -7px -7px 9px #4e463fd2;
+    color: rgb(84, 66, 66);
+    border: none;
+    border-radius: 10px;
+    border: solid 2px rgb(36, 94, 108);
+}
+
+#show th,
+#show td {
+    padding: 8px;
+    background-color: #fafafd;
+}
+
+tr td input {
+    padding: .7rem;
+    width: 100%;
+    margin-top: .7em;
+}
+
+tr td input:focus {
+    outline-color: #88cdfc;
+}
+
+#btna td input {
+    font-weight: 800;
+    font-size: 15px;
+    padding: .6rem .6rem;
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: linear-gradient(to right, #31693d 0%, #427c5b 100%);
+    width: 100%;
+    box-shadow: inset 5px 5px 8px #000000,
+        inset -7px -7px 8px #79e1a6;
+
+    border: 4px solid #738d8ae8;
+    
+}
+
+@keyframes mymove {
+    30% {border-color: rgba(0, 255, 17, 0.954);}
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
