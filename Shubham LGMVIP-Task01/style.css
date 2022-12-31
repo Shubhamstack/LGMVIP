@@ -1,0 +1,135 @@
+* {
+  box-sizing: padding-box;
+}
+
+body {
+    background-image: url("https://www.linuxfoundation.jp/wp-content/uploads/2016/12/abstract_bg.jp"); 
+    
+}
+.container{
+    background-image: url("https://img.freepik.com/free-vector/people-using-online-apps-set_74855-4457.jpg?w=1380&t=st=1670915222~exp=1670915822~hmac=f75040e92f8beaf55be53d9e57fe25623f21aa8746eb2214eba603b067def257");
+    padding: 2px;
+    margin: 10px;
+    border-radius: 2px;
+    color: rgb(49, 49, 32);
+    font-family: 'Aleo';
+    border: 1.5px solid rgb(9, 32, 66);
+    
+    
+    
+}
+.text-center{
+    font-size: 35px;
+    
+    text-align: center;
+   
+    border-color: rgb(153, 127, 127);
+    height: 40px;
+    margin-top: 12px;
+    font-family: 'Aleo';
+}
+.form-group{
+    display:flex;
+    place-items: left;
+    font-size: 25px;
+    height: 85px;
+    padding: 70px;
+    font-family: 'Aleo';
+}
+
+.form-control{
+    height: 50px;
+    width: 700px;
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Aleo';
+    border-radius: 30px;
+    border: 3px solid rgb(207, 149, 15);
+    animation: mymove s infinite;
+    background-image: linear-gradient(to right ,left, rgb(224, 15, 0),rgb(205, 141, 248), rgb(255, 255, 171), rgb(209, 149, 228),rgb(165, 176, 231));
+}
+.btn{
+    margin-left: 0px;
+     width: auto;
+    background-image: linear-gradient(to right, rgb(130, 170, 240),rgb(105, 148, 204));
+    border: 3px solid rgb(15, 196, 114);
+    height: 40px;
+    margin-top: 16px;
+    cursor: pointer;
+    color: rgb(8, 6, 6);
+    font-size: 15px bold; 
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Aleo';
+    animation: mymove 1s infinite;
+}
+.btn :hover{
+    background-color: black;
+    color: rgb(143, 115, 77);
+
+}
+
+@keyframes mymove {
+  50% {border-color: rgb(255, 162, 56);}
+}
+
+.b{
+    width: 350px;
+    padding: 50px;
+    position:relative;
+    background-image: url("https://img.freepik.com/free-vector/white-fluffy-clouds-sky-flat-vector-illustrations-set-collection-drawings-2d-clouds-different-shape-heaven-symbol-isolated-blue-background-weather-nature-concept-graphic-design_74855-21088.jpg?auto=format&h=200");
+    text-align: center;
+    font-family: 'Aleo';
+    margin-top: 20px;
+    border-radius: 0px;
+    opacity: 1;
+    
+}
+.box1{
+    left: 10%;
+    border: 4px solid #c2c2c2;
+    animation: 4s infinite;
+}
+
+@keyframes mymove {
+  20% {border-color: rgb(162, 28, 28);}
+}
+
+
+.box2{
+    left: 55%;
+    border: 4px solid #ddcfcf;
+    animation:  infinite;
+}
+
+@keyframes mymove {
+  20% {border-color: rgb(255, 0, 0);}
+}
+
+th{
+    padding:10px;
+    font-size: 20px;
+
+    color: rgba(9, 9, 8, 0.824);
+    font-family: 'Aleo';
+}
+td{
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Aleo';
+}
+
+table{
+    padding: 30px;
+}
+
+hr{
+   border: 1px solid #f3f300;
+   animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border-color: rgb(255, 255, 255);}
+
+
+}

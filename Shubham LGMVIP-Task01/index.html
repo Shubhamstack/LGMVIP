@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do App</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <div class="container">
+        <h2 class="text-center"> Daily To Do List</h2>
+        <div class="form-group">
+            <input type="text" class="form-control" id="title"  aria-describedby="emailHelp" placeholder=" Upload Tasks here..">
+        <button   id="add" class="btn" onclick="add()">UploadTask </button>        </div>
+
+        <div id="items" class="b box1">
+            <h1>Tasks to do </h1>
+            <hr>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Task No.</th>
+                    <th scope="col">Task Title</th>
+                    <th scope="col"></th> 
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                  <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td><button class="btn">Done</button></td> 
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="items" class="b box2">
+            <h1>Completed Tasks</h1>
+            <hr>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Task No.</th>
+                    <th scope="col">Task Title</th>
+                    <th scope="col"></th> 
+                  </tr>
+                </thead>
+                <tbody id="tableBody2">
+                  <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td><button class="btn">Delete</button></td> 
+                  </tr>
+                </tbody>
+            </table>
+            <div class="credits">
+      
+            </div>
+        </div>
+    </div>
+</body>
+</html>
